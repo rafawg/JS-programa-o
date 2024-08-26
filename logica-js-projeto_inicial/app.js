@@ -20,7 +20,7 @@ tentativas = 1;
 
 
 //enquanto
-chute não for igual ao numero Secreto
+
 
 
 while
