@@ -1,4 +1,6 @@
-alert('Boas vindas ao numero secreto');
+
+alert('Boas
+vindas ao numero secreto');
 
 
 let
@@ -20,7 +22,7 @@ tentativas = 1;
 
 
 //enquanto
-
+chute não for igual ao numero Secreto
 
 
 while
@@ -40,12 +42,11 @@ while
 
 
  
-      alert(`Isso aí! Você descobriu o número secreto
-${numeroSecreto} com
-${tentativas} tentativas.`);
+      break;
 
 
  
+     
 
 
  
@@ -62,6 +63,8 @@ ${tentativas} tentativas.`);
 
  
       } else {
+
+
  
       alert (`O numeroSecreto é maior que ${chute}`);
 
@@ -70,8 +73,51 @@ ${tentativas} tentativas.`);
       }
 
 
-    }   //tentativas = tentativas + 1;
+ 
+  }   //tentativas = tentativas + 1;
 
+
+ 
+      tentativas++;
+
+
+}
+
+
+ 
+
+
+let palavraTentativa
+= tentativas > 1 ? 'tentativas' : 'tentativa';
+
+
+alert(`Isso
+aí! Você descobriu o número secreto ${numeroSecreto} com ${tentativas}
+${palavraTentativa}.`);
+
+
+ 
+
+
+//if
+(tentativas > 1) {
+
+
+//
+   alert(`Isso aí! Você descobriu o número secreto ${numeroSecreto}
+com ${tentativas} tentativas.`);
+
+
+//}
+else {
+
+
+//
+ alert(`Isso aí! Você descobriu o número secreto ${numeroSecreto} com
+${tentativas} tentativa.`);
+
+
+//}
 
  
       tentativas++;
