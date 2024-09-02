@@ -1,4 +1,3 @@
-
 alert('Boas
 vindas ao numero secreto');
 
@@ -21,8 +20,7 @@ tentativas = 1;
  
 
 
-//enquanto
-chute não for igual ao numero Secreto
+//enquanto chute não for igual ao numero Secreto
 
 
 while
@@ -91,36 +89,24 @@ let palavraTentativa
 = tentativas > 1 ? 'tentativas' : 'tentativa';
 
 
-alert(`Isso
-aí! Você descobriu o número secreto ${numeroSecreto} com ${tentativas}
+alert(`Isso aí! Você descobriu o número secreto ${numeroSecreto} com ${tentativas}
 ${palavraTentativa}.`);
 
 
  
 
 
-//if
-(tentativas > 1) {
+//if (tentativas > 1) {
 
 
-//
-   alert(`Isso aí! Você descobriu o número secreto ${numeroSecreto}
-com ${tentativas} tentativas.`);
+//  alert(`Isso aí! Você descobriu o número secreto ${numeroSecreto} com ${tentativas} tentativas.`);
 
 
-//}
-else {
+//} else {
 
 
-//
- alert(`Isso aí! Você descobriu o número secreto ${numeroSecreto} com
-${tentativas} tentativa.`);
+// alert(`Isso aí! Você descobriu o número secreto ${numeroSecreto} com ${tentativas} tentativa.`);
 
 
-//}
+//} tentativas++;}
 
- 
-      tentativas++;
-
-
-}
